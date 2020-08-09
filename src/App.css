@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.bgLightBlue {
+  background-color:#59aaa5;
+}
+
+body {
+  /* background-color: #DCDCDC; */
+  /* background-image: url(../images/siteBG.png); */
+  background-position: center;
+  background-size: cover;
+}
+
+.textLightBlue {
+  color:#59aaa5;
+}
+
+.siteContainers {
+  height: auto;
+}
+
+.sites {
+  padding-top: 30px;
+  background-color: black;
+  padding-bottom: inherit;
+  margin-bottom: 20px;
+}
+
+.siteExtra {
+  padding-top: 50px;
+}
+
+img, .card-img-overlay {
+  height: 200px;
+  width: auto;
+}
+
+body {
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+footer {
+  position: fixed;
+  left: 0; 
+  width: 100%;
+  bottom: 0;
+}
