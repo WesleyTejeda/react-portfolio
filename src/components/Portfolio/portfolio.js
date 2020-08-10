@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./style.css";
 import repos from "../../JSON/repos.json";
 
 export default function Portfolio() {

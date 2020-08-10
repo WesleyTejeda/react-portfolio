@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./style.css";
 import { Link, useLocation } from "react-router-dom";
 
 export default function NavTab() {
