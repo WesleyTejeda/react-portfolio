@@ -41,15 +41,23 @@
   background-color:#59aaa5;
 }
 
+.textLightBlue {
+  color:#59aaa5;
+  font-weight: bold;
+}
+
 body {
   /* background-color: #DCDCDC; */
-  /* background-image: url(../public/images/siteBG.png); */
+  background-image: url("./bg/bg3.jpg");
   background-position: center;
   background-size: cover;
 }
 
-.textLightBlue {
-  color:#59aaa5;
+
+.card {
+  border: 5px;
+  background-color: #dddadac7;
+  border-style: outset;
 }
 
 .siteContainers {
