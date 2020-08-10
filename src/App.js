@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import { BrowserRouter as Router, Route}  from "react-router-dom";
 import NavTab from "./components/NavTab";
 import About from "./components/About";
@@ -13,9 +12,9 @@ function App() {
     <Router>
       <div>
         <NavTab />
-        <Route exact path="/" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/react-portfolio/" component={About} />
+        <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
+        <Route exact path="/react-portfolio/contact" component={Contact} />
         <Footer />
       </div>
     </Router>
