@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Movie Mentor",
+        "altName": "Movie-Mentor",
+        "deployed": "https://movie-mentor.herokuapp.com/",
+        "repository": "https://github.com/WesleyTejeda/Movie-Mentor",
+        "src": "images/movie-mentor.gif"
+    },
+    {
+       "name": "COVID 2019 Test Locator",
+       "altName": "Locator",
+       "deployed": "https://WesleyTejeda.github.io/COVID-19-Test-Center-Locator",
+       "repository": "https://github.com/WesleyTejeda/COVID-19-Test-Center-Locator",
+       "src": "images/TestLocatorDemo.gif"
+    },
+    {
+        "name": "Burger Logger",
+        "altName": "Logger",
+        "deployed": "https://burger-logger-v1.herokuapp.com/",
+        "repository": "https://github.com/WesleyTejeda/Burger-Logger",
+        "src": "images/burger-demo.gif"
+     },
+     {
+        "name": "Weather Dashboard",
+        "altName": "Dashboard",
+        "deployed": "https://wesleytejeda.github.io/Weather-Dashboard",
+        "repository": "https://github.com/WesleyTejeda/Weather-Dashboard",
+        "src": "images/WeatherDashboardDemo.gif"
+     },
+     {
+        "name": "Employee Tracker",
+        "altName": "Tracker",
+        "deployed": "https://youtu.be/wc5_hsrj6qw",
+        "repository": "https://github.com/WesleyTejeda/Employee-Tracker",
+        "src": "images/Employee-Tracker.png"
+     },
+     {
+        "name": "Javascript Code Quiz",
+        "altName": "Quiz Repository",
+        "deployed": "https://wesleytejeda.github.io/code-Quiz",
+        "repository": "https://github.com/WesleyTejeda/code-Quiz",
+        "src": "images/code-QuizDemo.gi"
+     },
+     {
+        "name": "Github Viewer",
+        "altName": "Github-Viewer",
+        "deployed": "https://github-profile-viewer-v1.herokuapp.com/",
+        "repository": "https://github.com/WesleyTejeda/Github-Viewer",
+        "src": "images/github-viewer.png"
+     }
+]
