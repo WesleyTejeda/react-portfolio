@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route}  from "react-router-dom";
+import { HashRouter as Router, Route}  from "react-router-dom";
 import NavTab from "./components/NavTab";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
@@ -9,12 +9,12 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-portfolio">
       <div>
         <NavTab />
-        <Route exact path="/react-portfolio/" component={About} />
-        <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
-        <Route exact path="/react-portfolio/contact" component={Contact} />
+        <Route exact path="/" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
         <Footer />
       </div>
     </Router>

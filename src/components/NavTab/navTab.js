@@ -15,17 +15,17 @@ export default function NavTab() {
                         <section className="justify-content-end col-lg-6 col-md-6 col-xs-12">
                             <ul className="nav justify-content-center mt-2">
                                 <li className="nav-item border-top border-bottom aTextWhite">
-                                <Link to="/react-portfolio/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                                <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                                     About
                                 </Link>
                                 </li>
                                 <li className="nav-item border-top border-bottom aTextWhite">
-                                <Link to="/react-portfolio/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+                                <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
                                     Portfolio
                                 </Link>
                                 </li>
                                 <li className="nav-item border-top border-bottom aTextWhite">
-                                <Link to="/react-portfolio/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+                                <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
                                     Contact
                                 </Link>
                                 </li>
