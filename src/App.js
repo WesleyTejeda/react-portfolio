@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/react-portfolio">
+    <Router basename="/">
       <div>
         <NavTab />
         <Route exact path="/" component={About} />
