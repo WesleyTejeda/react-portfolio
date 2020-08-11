@@ -14,7 +14,7 @@ router.route("/api/submit")
         var mailOptions = {
             from: req.body.email,
             to: "wesley.tejeda95@gmail.com",
-            subject: req.body.subject,
+            subject: req.body.subject + " From: " + req.body.email,
             text: req.body.message
         };
         transporter.sendMail(mailOptions, function (error, info) {
