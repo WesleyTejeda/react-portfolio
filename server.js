@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.static("client/public"));
 
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname + "../client/build/index.html"));
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 // Add routes, both API and view
 app.use(routes);
