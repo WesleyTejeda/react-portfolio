@@ -15,7 +15,7 @@ export default function Footer(){
                     <p>LinkedIn</p>
                 </section>
                 <section className="col-2 text-center">
-                    <a target="_blank" href="images/Wesley_Tejeda_Resume.PDF"><i className="far fa-file-pdf"></i></a>
+                    <a target="_blank" href="images/Wesley_Tejeda_Resume.pdf"><i className="far fa-file-pdf"></i></a>
                     <p>Resume</p>
                 </section>
             </section>
