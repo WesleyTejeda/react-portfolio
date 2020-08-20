@@ -1,5 +1,12 @@
 [
     {
+        "name": "TeachPod",
+        "altName": "Teach-Pod",
+        "deployed": "https://teach-pod-co.herokuapp.com/",
+        "repository": "https://github.com/WesleyTejeda/teacherpod",
+        "src": "images/teachpod-demo.gif"
+    },
+    {
         "name": "Movie Mentor",
         "altName": "Movie-Mentor",
         "deployed": "https://movie-mentor.herokuapp.com/",
