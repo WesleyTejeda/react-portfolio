@@ -60,7 +60,7 @@ export default function Contact(){
                                 </div>
                                 <div className="form-group">
                                     <label for="inputMessage">Message</label>
-                                    <input className="form-control" value={input.message} name="message" style={{height: "100px"}} onChange={handleInputChange}/>
+                                    <textarea className="form-control" value={input.message} name="message" style={{height: "100px"}} onChange={handleInputChange}/>
                                 </div>
                                 <button type="submit" onClick={handleFormSubmit} className="btn btn-success">Submit</button>
                                 <h3 className="mt-3" id="successMsg" style={{display: "none"}}>Your email was successfully sent! ✔️</h3>
