@@ -4,55 +4,71 @@
         "altName": "Teach-Pod",
         "deployed": "https://teach-pod-co.herokuapp.com/",
         "repository": "https://github.com/WesleyTejeda/teacherpod",
-        "src": "images/teachpod-demo.gif"
+        "src": "images/teachpod-demo.gif",
+        "tech": "React, Reactstrap, MongoDB, Express, Axios, Bcrypt encryption",
+        "description": "TeachPod offers a quick and easy solution to finding and organizing learning pods, to alleviate the stress from both overwhelmed parents, and now jobless teachers. Users can create accounts and communicate with educators to enroll in learning pods. We've even developed an instant messenger so that users can have real-time communication. Our site allows users to customize their profiles allowing account photos & descriptions."
     },
     {
         "name": "Movie Mentor",
         "altName": "Movie-Mentor",
         "deployed": "https://movie-mentor.herokuapp.com/",
         "repository": "https://github.com/WesleyTejeda/Movie-Mentor",
-        "src": "images/movie-mentor.gif"
+        "src": "images/movie-mentor.gif",
+        "tech": "Bootstrap, Express, MySQL & Sequelize, Express-Handlebars, TMDb API, Axios, Bcrypt encryption",
+        "description": "In the busy world we live in, personal time to relax and simply enjoy a movie or tv show should not be undervalued. Users can sign up for Movie Mentor and receive movie & show recommendations based on whats trending and other classifications. When you click on a title you can see recommended titles below as well as a trailer (if available). Users can add and remove titles to their watchlist which they can come back to at any time."
     },
     {
        "name": "COVID 2019 Test Locator",
        "altName": "Locator",
        "deployed": "https://WesleyTejeda.github.io/COVID-19-Test-Center-Locator",
        "repository": "https://github.com/WesleyTejeda/COVID-19-Test-Center-Locator",
-       "src": "images/TestLocatorDemo.gif"
+       "src": "images/TestLocatorDemo.gif",
+       "tech": "Google Maps, COVID Testing Location API, COVID 19 Stats API, UI Kit",
+       "description": "The COVID-19 Test Center Locator allows users to acquire addresses, phone numbers and hours of operations of test center locations in their state. Simply click on the 'select a state' drop down and choose your state. We then retrieve the location information, such as address, site name, and hours, as well as display the information on google maps. Users can click on pins on the map to view more information. We also provide general information regarding COVID as well as links to CDC and WHO."
     },
     {
         "name": "Burger Logger",
         "altName": "Logger",
         "deployed": "https://burger-logger-v1.herokuapp.com/",
         "repository": "https://github.com/WesleyTejeda/Burger-Logger",
-        "src": "images/burger-demo.gif"
+        "src": "images/burger-demo.gif",
+        "tech": "Express, MySql, Express-Handlebars, Bootstrap",
+        "description": "This site is more of a demonstration of CRUD operations. Users can get, post, put (update), and delete burger entries which is managed by MySQL database. This site utilizes the MVC design to communicate with the database."
      },
      {
         "name": "Weather Dashboard",
         "altName": "Dashboard",
         "deployed": "https://wesleytejeda.github.io/Weather-Dashboard",
         "repository": "https://github.com/WesleyTejeda/Weather-Dashboard",
-        "src": "images/WeatherDashboardDemo.gif"
+        "src": "images/WeatherDashboardDemo.gif",
+        "tech": "OpenWeather API, Bootstrap, Local Storage",
+        "description": "Weather Dashboard is a site that uses OpenWeather's API to display current weather conditions and a 5 day forecast for any city. The site utilizes local storage in order to keep track of the user's search history and when the user comes back their last city searched will already be loaded."
      },
      {
         "name": "Employee Tracker",
         "altName": "Tracker",
         "deployed": "https://youtu.be/wc5_hsrj6qw",
         "repository": "https://github.com/WesleyTejeda/Employee-Tracker",
-        "src": "images/Employee-Tracker.png"
+        "src": "images/Employee-Tracker.png",
+        "tech": "Node, MySQL, Inquirer",
+        "description": "This Node app allows you to manage the employees, departments, and roles of a company with Add, View and Delete functions. Using inquirer as an abstraction we can ask the user questions regarding the info they've selected."
      },
      {
         "name": "Javascript Code Quiz",
         "altName": "Quiz Repository",
         "deployed": "https://wesleytejeda.github.io/code-Quiz",
         "repository": "https://github.com/WesleyTejeda/code-Quiz",
-        "src": "images/code-QuizDemo.gif"
+        "src": "images/code-QuizDemo.gif",
+        "tech": "Local Storage, Bootstrap, MomentJS",
+        "description": "This site provides a javascript quiz that saves highscores to local storage. This is a timed quiz that penalizes the user based on questions answered wrong; the higher the score the better."
      },
      {
         "name": "Github Viewer",
         "altName": "Github-Viewer",
         "deployed": "https://github-profile-viewer-v1.herokuapp.com/",
         "repository": "https://github.com/WesleyTejeda/Github-Viewer",
-        "src": "images/github-viewer.png"
+        "src": "images/github-viewer.png",
+        "tech": "Github API,",
+        "description": "This Github viewer app uses the API provided by GitHub to search any accounts and view the user's information and public repository information. This site is still under development."
      }
 ]
