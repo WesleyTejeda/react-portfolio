@@ -36,6 +36,22 @@
     transform: rotate(360deg);
   }
 }
+.navImg {
+  background-color: rgb(198, 238, 235);
+  border-radius: 100px 100px 100px 100px;
+  margin-right: 7px;
+  margin-bottom: 10px;
+}
+
+.navImg:hover {
+  background-color: #61dafb;
+  transform: rotate(1deg);
+}
+
+a {
+  color: #59aaa5;
+  font-weight: bold;
+}
 
 .bgLightBlue {
   background-color:#59aaa5;

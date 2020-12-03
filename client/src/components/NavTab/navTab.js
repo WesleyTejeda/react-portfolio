@@ -5,7 +5,7 @@ export default function NavTab() {
     const location = useLocation();
 
     return (
-        <header className="bg-dark border-bottom">
+        <header className="bg-dark">
             <nav>
                 <div className="container">
                     <section className="row justify-content-between">
@@ -14,17 +14,17 @@ export default function NavTab() {
                         </section>
                         <section className="justify-content-end col-lg-6 col-md-6 col-xs-12">
                             <ul className="nav justify-content-center mt-2">
-                                <li className="nav-item border-top border-bottom aTextWhite">
+                                <li className="nav-item aTextWhite navImg">
                                 <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                                     About
                                 </Link>
                                 </li>
-                                <li className="nav-item border-top border-bottom aTextWhite">
+                                <li className="nav-item aTextWhite navImg">
                                 <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
                                     Portfolio
                                 </Link>
                                 </li>
-                                <li className="nav-item border-top border-bottom aTextWhite">
+                                <li className="nav-item aTextWhite navImg">
                                 <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
                                     Contact
                                 </Link>
