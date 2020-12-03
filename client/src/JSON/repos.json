@@ -68,7 +68,7 @@
         "deployed": "https://github-profile-viewer-v1.herokuapp.com/",
         "repository": "https://github.com/WesleyTejeda/Github-Viewer",
         "src": "images/github-viewer.png",
-        "tech": "Github API,",
+        "tech": "Github API",
         "description": "This Github viewer app uses the API provided by GitHub to search any accounts and view the user's information and public repository information. This site is still under development."
      }
 ]
