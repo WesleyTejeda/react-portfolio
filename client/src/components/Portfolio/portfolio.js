@@ -54,7 +54,7 @@ export default function Portfolio() {
                                                     </button>
                                                 </a>
                                             </figure>
-                                            <div>
+                                            <div className="text-center">
                                                 <h4 className="textLightBlue">Tech Used</h4>
                                                 <p>{repo.tech}</p>
                                                 <h4 className="textLightBlue">Description</h4>
