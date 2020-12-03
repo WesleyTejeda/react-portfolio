@@ -59,6 +59,12 @@ body {
   background-color: #dddadac7;
   border-style: outset;
 }
+.card .card {
+  border: 1px;
+  margin-top: 5px;
+  border-style: solid;
+  border-color: black;
+}
 
 .siteContainers {
   height: auto;

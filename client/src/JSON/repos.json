@@ -5,8 +5,8 @@
         "deployed": "https://teach-pod-co.herokuapp.com/",
         "repository": "https://github.com/WesleyTejeda/teacherpod",
         "src": "images/teachpod-demo.gif",
-        "tech": "React, Reactstrap, MongoDB, Express, Axios, Bcrypt encryption",
-        "description": "TeachPod offers a quick and easy solution to finding and organizing learning pods, to alleviate the stress from both overwhelmed parents, and now jobless teachers. Users can create accounts and communicate with educators to enroll in learning pods. We've even developed an instant messenger so that users can have real-time communication. Our site allows users to customize their profiles allowing account photos & descriptions."
+        "tech": "React, Reactstrap, MongoDB, Express, Axios, Bcrypt",
+        "description": "TeachPod offers a quick and easy solution to finding and organizing learning pods, to alleviate the stress from both overwhelmed parents, and now jobless teachers. Users can create accounts and communicate with educators through our messenger feature."
     },
     {
         "name": "Movie Mentor",
@@ -14,8 +14,8 @@
         "deployed": "https://movie-mentor.herokuapp.com/",
         "repository": "https://github.com/WesleyTejeda/Movie-Mentor",
         "src": "images/movie-mentor.gif",
-        "tech": "Bootstrap, Express, MySQL & Sequelize, Express-Handlebars, TMDb API, Axios, Bcrypt encryption",
-        "description": "In the busy world we live in, personal time to relax and simply enjoy a movie or tv show should not be undervalued. Users can sign up for Movie Mentor and receive movie & show recommendations based on whats trending and other classifications. When you click on a title you can see recommended titles below as well as a trailer (if available). Users can add and remove titles to their watchlist which they can come back to at any time."
+        "tech": "Bootstrap, Express, MySQL & Sequelize, Handlebars, TMDb API, Axios, Bcrypt",
+        "description": "Users can sign up for Movie Mentor and receive movie & show recommendations based on whats trending and other classifications. When you click on a title you can see recommended titles below as well as a trailer. Users can add and remove titles to their watchlist."
     },
     {
        "name": "COVID 2019 Test Locator",
@@ -24,7 +24,7 @@
        "repository": "https://github.com/WesleyTejeda/COVID-19-Test-Center-Locator",
        "src": "images/TestLocatorDemo.gif",
        "tech": "Google Maps, COVID Testing Location API, COVID 19 Stats API, UI Kit",
-       "description": "The COVID-19 Test Center Locator allows users to acquire addresses, phone numbers and hours of operations of test center locations in their state. Simply click on the 'select a state' drop down and choose your state. We then retrieve the location information, such as address, site name, and hours, as well as display the information on google maps. Users can click on pins on the map to view more information. We also provide general information regarding COVID as well as links to CDC and WHO."
+       "description": "The COVID-19 Test Center Locator allows users to acquire addresses, phone numbers and hours of operations of test center locations in their state. Simply click on the 'select a state' drop down and choose your state."
     },
     {
         "name": "Burger Logger",
@@ -32,7 +32,7 @@
         "deployed": "https://burger-logger-v1.herokuapp.com/",
         "repository": "https://github.com/WesleyTejeda/Burger-Logger",
         "src": "images/burger-demo.gif",
-        "tech": "Express, MySql, Express-Handlebars, Bootstrap",
+        "tech": "Express, MySql, Handlebars, Bootstrap",
         "description": "This site is more of a demonstration of CRUD operations. Users can get, post, put (update), and delete burger entries which is managed by MySQL database. This site utilizes the MVC design to communicate with the database."
      },
      {
