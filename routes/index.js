@@ -7,7 +7,7 @@ router.route("/api/submit")
         var transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: "wesley.tejeda95@gmail.com",
+                user: "donotreplymailer95@gmail.com",
                 pass: process.env.GMAIL_PW
             },
         });

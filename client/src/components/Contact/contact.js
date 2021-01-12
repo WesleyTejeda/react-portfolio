@@ -28,7 +28,7 @@ export default function Contact(){
         }
         axios.post("/api/submit", input).then(res => {
             console.log(res);
-            if(res.data.rejected.length == 0){
+            if(res.data.rejected){
                 document.getElementById("successMsg").style.display = "block";
                 setInput({
                     name: "",
@@ -71,7 +71,7 @@ export default function Contact(){
                                 <button type="submit" onClick={handleFormSubmit} className="btn btn-success">Submit</button>
                                 <h3 className="mt-3" id="successMsg" style={{display: "none"}}>Your email was successfully sent! ✔️</h3>
                                 <h3 className="mt-3" id="errorMsg" style={{display: "none"}}>Please fill out all form fields. ❌</h3>
-                                <h3 className="mt-3" id="msgNotSent" style={{display: "none"}}>Unable to send message please try again. ❌</h3>
+                                <h3 className="mt-3" id="msgNotSent" style={{display: "none"}}>Unable to send message please try again later. ❌</h3>
                             </form>
                         </div>
                     </div>
